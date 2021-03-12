@@ -17,8 +17,7 @@
   })
 
   var calc = (function (){
-    
-    var calc = function calc () {
+    var calc = function () {
       // @ts-ignore
       return new calc.fn.init()
     }
@@ -32,16 +31,16 @@
         var curNum = temp[i]
         temp[i].indexOf('.') > -1 ? sortArr.push(curNum.slice(curNum.indexOf('.')).length) : null
       }
-      return sortArr.length > 0 ? Max.pow(10, Math.max.apply(null, sortArr)) : 1
+      return sortArr.length > 0 ? Math.pow(10, Math.max.apply(null, sortArr)) : 1
     }
-    calc.init =  calc.prototype = {
+    calc.fn = calc.prototype = {
       constructor: calc,
+      custom: true,
       minus: function () {
         var 
         scale,
         args = Array.prototype.slice.call(arguments),
         result
-
         if (arguments.length === 0) {
           return this
         }
@@ -66,10 +65,10 @@
         return result / scale
       }
     }
-    var init = calc.init.fn = function () {
+    var  init = calc.fn.init = function () {
       return this
     }
-    init.prototype = calc.init
+    init.prototype = calc.fn
     return calc
 
   })()
@@ -95,3 +94,5 @@
   }
 
 })()
+
+
