@@ -1,12 +1,8 @@
-workflows:
 version: 2
 jobs:
   build:
     docker: #执行容器
       - image: circleci/node:10 #依赖环境
-    branches: #分支
-      only:
-      - master
     steps:
       - run: 
           name: Install
