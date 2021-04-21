@@ -12,7 +12,7 @@ jobs:
           command: npm install
       - save_cache:
         key: node-dependens
-          paths:
+          path:
             - node_modules
       - run: 
           name: Test
