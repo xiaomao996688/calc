@@ -2,24 +2,18 @@ TN:
 SF:src/index.js
 FN:5,toType
 FN:11,isNumberic
-FN:15,Object.<anonymous>.Boolean Number String Function Array Date RegExp Object Error Symbol.split.forEach.name
 FN:20,calc
 FN:24,isScale
-FN:28,arr.map.num
 FN:39,minus
-FN:58,args.map.num
 FN:68,calc.fn.init
 FN:78,Object.<anonymous>.calc.noConflict
-FNF:10
-FNH:9
+FNF:7
+FNH:6
 FNDA:11,toType
 FNDA:11,isNumberic
-FNDA:10,Object.<anonymous>.Boolean Number String Function Array Date RegExp Object Error Symbol.split.forEach.name
 FNDA:5,calc
 FNDA:4,isScale
-FNDA:11,arr.map.num
 FNDA:5,minus
-FNDA:11,args.map.num
 FNDA:5,calc.fn.init
 FNDA:0,Object.<anonymous>.calc.noConflict
 DA:1,1

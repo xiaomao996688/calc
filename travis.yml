@@ -1,0 +1,15 @@
+language: node_js
+node_js: stable
+
+before_install: 
+  - npm install
+
+script: 
+  - npm run coveralls
+
+notifications: 
+  email: 
+    recipients: 
+       - 97045024@qq.com
+    on_success: always # default: change
+    on_failure: always # default: always
