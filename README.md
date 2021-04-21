@@ -17,7 +17,7 @@ calc 工具库是用来专门处理数字计算的精确性，目前只支持小
 ## 快速开始
 安装 pro-calc
 ```js
-npm i pro-calc -D
+npm i pro-calc
 ```
 使用calc进去数字的精确计算
 ```code 
