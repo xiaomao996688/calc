@@ -1,8 +1,6 @@
 version: 2
 jobs:
   build:
-    docker: #执行容器
-      - image: circleci/node:12.5.0 #依赖环境
     steps:
       - run: 
           name: Install
