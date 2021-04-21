@@ -6,6 +6,7 @@
   <a href="https://npmjs.com/package/pro-calc title="Downloads">
     <img alt="npm" src="https://img.shields.io/npm/dm/pro-calc">
   </a>
+  <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/xiaomao996688/calc?token=97ab27e9f68c403fb1e4f47025bb31146b21cc24">
 </p>
 
 ## 介绍 

@@ -3,19 +3,7 @@ jobs:
   build:
     docker: #执行容器
       - image: circleci/node:10 #依赖环境
-    branches: #分支
-      only:
-      - master
     steps:
       - run: 
           name: Install
           command: npm install
-      - run: 
-          name: Test
-          command: npm run test
-      - run:
-          name: Build
-          command: npm run build
-      - run: 
-          name: coveralls
-          command: npm run coveralls
